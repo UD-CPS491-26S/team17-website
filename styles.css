@@ -1,0 +1,194 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    background: #1f2227;
+    color: #f1f1f1;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* NAVIGATION */
+nav {
+    background: #171b48;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity .2s;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+/* HERO */
+.hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+    ),
+    url("assets/hero-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    padding: 40px;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: white;
+    color: #171b48;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s;
+}
+
+.hero-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* SECTIONS */
+.section {
+    width: 85%;
+    margin: 60px auto;
+}
+
+.section h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* CARDS */
+.card {
+    background: #2b2f36;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: transform .2s, box-shadow .2s;
+    color: #f1f1f1;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.55);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.card.wide {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.team img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Contact section layout */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Contact cards */
+.contact-card {
+    background: #2b2f36;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+/* Hover effect */
+.contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.55);
+}
+
+/* Circular image */
+.contact-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px auto;
+}
+
+.contact-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* GitHub link styling */
+.github-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.github-link a {
+    font-size: 1.1rem;
+    color: #9bbcff;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: color 0.25s ease, border-bottom 0.25s ease;
+}
+
+.github-link a:hover {
+    color: #c7d8ff;
+    border-bottom: 2px solid #c7d8ff;
+}
