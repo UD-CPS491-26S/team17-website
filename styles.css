@@ -207,3 +207,23 @@ nav {
     color: #c7d8ff;
     border-bottom: 2px solid #c7d8ff;
 }
+
+/* Sprint card formatting */
+
+.sprint-card h3 {
+    margin-top: 18px;
+    font-size: 1.05rem;
+    color: #9bbcff;
+}
+
+.sprint-card ul {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.sprint-card li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+    font-size: 0.95rem;
+}
