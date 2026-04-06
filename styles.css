@@ -228,30 +228,10 @@ nav {
 }
 
 /* video formatting */
-/* .video-placeholder {
-    border-radius: 10px;
-    overflow: hidden;
-    background: black;
-}
-
-.video-placeholder video {
-    width: 100%;
-    height: 220px;
-    object-fit: contain;
-}
-
-.video-placeholder iframe {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    border: none;
-    border-radius: 10px;
-} */
-
 .video-placeholder {
     position: relative;
     width: 100%;
     aspect-ratio: 16 / 9;
-    background-color: #222; /* optional */
     border-radius: 8px;
     overflow: hidden;
 }
