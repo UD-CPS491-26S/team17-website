@@ -12,6 +12,12 @@ h1, h2 {
     color: #ffffff;
 }
 
+.bio {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* NAVIGATION */
 nav {
     background: #171b48;
