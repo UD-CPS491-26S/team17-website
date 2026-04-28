@@ -281,3 +281,32 @@ nav {
 .bio p {
     margin-bottom: 10px;
 }
+
+/* FEATURES SECTION */
+#features .grid {
+    gap: 30px;
+}
+
+/* feature cards */
+#features .card {
+    position: relative;
+    padding: 30px 26px;
+    border-radius: 14px;
+    background: linear-gradient(160deg, #2b2f36, #252930);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.25s ease;
+}
+
+/* title styling */
+#features .card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+}
+
+/* description */
+#features .card p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: #cfd6e6;
+}
