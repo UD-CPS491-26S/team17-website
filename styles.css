@@ -305,3 +305,28 @@ nav {
     line-height: 1.65;
     color: #cfd6e6;
 }
+
+/* TECH STACK */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.tech-card {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.tech-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.tech-card h2 {
+    font-size: 1.05rem;
+    margin-top: 5px;
+}
