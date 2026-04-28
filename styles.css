@@ -264,11 +264,6 @@ nav {
     background: #004182;
 }
 
-.linkedin.disabled {
-    opacity: 0.5;
-    font-size: 0.85rem;
-}
-
 /* bio formatting */
 .bio {
     margin-top: 10px;
